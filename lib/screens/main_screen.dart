@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:lucide_icons/lucide_icons.dart';
-import 'package:splat_app/widgets/bottom_navigation.dart';
-import 'package:splat_app/widgets/health_tracker.dart';
-import 'package:splat_app/widgets/courses_section.dart';
-import 'package:splat_app/widgets/spring_care_section.dart';
-import 'package:splat_app/widgets/conscious_care_guide.dart';
-import 'package:splat_app/widgets/recommended_products.dart';
-import 'package:splat_app/widgets/user_profile_header.dart';
-import 'package:splat_app/widgets/video_player_section.dart';
+import 'package:myapp/widgets/bottom_navigation.dart';
+import 'package:myapp/widgets/health_tracker.dart';
+import 'package:myapp/widgets/courses_section.dart';
+import 'package:myapp/widgets/spring_care_section.dart';
+import 'package:myapp/widgets/conscious_care_guide.dart';
+import 'package:myapp/widgets/recommended_products.dart';
+import 'package:myapp/widgets/user_profile_header.dart';
+import 'package:myapp/widgets/video_player_section.dart';
 
 class MainScreen extends StatelessWidget {
   const MainScreen({super.key});

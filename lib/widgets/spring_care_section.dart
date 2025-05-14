@@ -61,10 +61,6 @@ class SpringCareSection extends StatelessWidget {
                           decoration: BoxDecoration(
                             color: Colors.black.withOpacity(0.24),
                             borderRadius: BorderRadius.circular(60),
-                            backdropFilter: ImageFilter.blur(
-                              sigmaX: 22,
-                              sigmaY: 22,
-                            ),
                           ),
                           child: const Text(
                             '279 ₽',

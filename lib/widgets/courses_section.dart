@@ -133,8 +133,8 @@ class _CourseCard extends StatelessWidget {
                   Text(
                     lessons!,
                     style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                      color: Colors.black.withOpacity(0.6),
-                    ),
+                          color: Colors.black.withOpacity(0.6),
+                        ),
                   ),
                 ],
               ],
@@ -154,7 +154,6 @@ class _CourseCard extends StatelessWidget {
                   decoration: BoxDecoration(
                     color: Colors.black.withOpacity(0.3),
                     borderRadius: BorderRadius.circular(30),
-                    backdropFilter: ImageFilter.blur(sigmaX: 22, sigmaY: 22),
                   ),
                   child: const Text(
                     '1/3',

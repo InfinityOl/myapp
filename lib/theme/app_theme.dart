@@ -33,10 +33,6 @@ class AppTheme {
           fontWeight: FontWeight.w400,
         ),
       ),
-      cardTheme: CardTheme(
-        elevation: 8,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(40)),
-      ),
     );
   }
 }
