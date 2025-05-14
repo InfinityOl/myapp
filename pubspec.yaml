@@ -22,4 +22,16 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  
+  fonts:
+    - family: DrukCyr
+      fonts:
+        - asset: assets/fonts/DrukCyr-Medium.otf
+          weight: 500
+    - family: ObjectSans
+      fonts:
+        - asset: assets/fonts/ObjectSans-Regular.otf
+          weight: 400
+    - family: Grtsk Giga
+      fonts:
+        - asset: assets/fonts/GrtskGiga-Medium.otf
+          weight: 500
